@@ -1,6 +1,6 @@
 # 🔬 Smart Home Monitor — BME280 Calibration Tool
 
-Part of the **IoT Smart Home Monitor** project built on a DE10-Nano (Intel Cyclone V SoC) for the *Electronics for Embedded Systems* course at Politecnico di Torino (A.Y. 2024–2025).
+Part of the **IoT Smart Home Monitor** project built on a DE10-Nano (Intel Cyclone V SoC) for the *Electronics for Embedded Systems* course at Politecnico di Torino (A.Y. 2025–2026).
 
 This tool extracts the factory-programmed calibration coefficients from a Bosch BME280 sensor chip using an ESP32. The resulting `#define` block is pasted into the C supervisor's `smart_home.h`, enabling accurate temperature, pressure, and humidity compensation without needing direct HPS I²C access.
 
